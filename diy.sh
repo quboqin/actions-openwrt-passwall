@@ -7,4 +7,4 @@
 #=================================================
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.123.77/g' package/base-files/files/bin/config_generate
-sed -i 's/\'password\'/\'Enix6424\`/g' package/base-files/files/bin/config_generate
+sed -i 's/\'password\'/\'Enix6424\'/g' package/base-files/files/bin/config_generate
